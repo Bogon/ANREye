@@ -1,5 +1,7 @@
 # ANREye
 
+[![Swift 4.0+](https://img.shields.io/badge/Swift-3.0%2B-orange.svg)](https://github.com/zixun/AssistiveButton)
+
 [![Version](https://img.shields.io/cocoapods/v/Log4G.svg?style=flat)](http://cocoapods.org/pods/ANREye)
 [![License](https://img.shields.io/cocoapods/l/Log4G.svg?style=flat)](http://cocoapods.org/pods/ANREye)
 [![Platform](https://img.shields.io/cocoapods/p/Log4G.svg?style=flat)](http://cocoapods.org/pods/ANREye)
@@ -9,7 +11,7 @@
 Class for monitor excessive blocking on the main thread
 
 ## Family
-This library is derived from the [GodEye](https://github.com/zixun/GodEye) project which can automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
+This library is derived from the [GodEye](https://github.com/Bogon/GodEye) project which can automaticly display Log,Crash,Network,ANR,Leak,CPU,RAM,FPS,NetFlow,Folder and etc with one line of code. Just like god opened his eyes
 
 ## Book & Principle
 
@@ -23,14 +25,14 @@ ANREye is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "ANREye"
+pod 'ANREye'
 ```
 
 ### Carthage
 Or, if you’re using [Carthage](https://github.com/Carthage/Carthage), add SwViewCapture to your Cartfile:
 
 ``` 
-github "zixun/ANREye"
+github 'Bogon/ANREye'
 ```
 
 
@@ -71,6 +73,13 @@ for _ in 0..<9999 {
     
 print("invoke")
 ```
+## 维护者
+
+name: Bogon
+
+email: zhangqixcu@gmail.com
+
+github: [Bogon](https://github.com/Bogon)
 
 ## Author
 
